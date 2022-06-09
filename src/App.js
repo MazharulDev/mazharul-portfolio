@@ -1,16 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import About from './components/About';
+import Home from './home/Home';
 
-import Header from './components/Header';
-import Hero from './components/Hero';
 
 
 function App() {
   return (
-    <div className='bg-white relative'>
-      <Header />
-      <Hero />
-      <About />
+    <div>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+      </Routes>
     </div>
   );
 }
