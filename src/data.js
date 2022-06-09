@@ -14,12 +14,10 @@ import {
 
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/assignment-ten.png';
+import Project2 from './assets/img/projects/vehicle.png';
+import Project3 from './assets/img/projects/storeforpc.png';
+
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -91,39 +89,33 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: 'Health is happiness',
+    category: 'Frontend website',
+    des: 'This website is doctors portal',
+    live: 'https://assignment-ten-8e38b.web.app/',
+    clientCode: 'https://github.com/miforbd/health-is-happiness'
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: 'Vehicle-storehouse',
+    category: 'Full stack website',
+    des: 'This website is warehouse management',
+    live: 'https://vehicle-storehouse.web.app/',
+    clientCode: 'https://github.com/miforbd/vehicle-storehouse-client-side',
+    serverCode: 'https://github.com/miforbd/vehicle-storehouse-server-side'
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Store for pc',
+    category: 'Full stack website',
+    des: 'This website is Manufacturer items',
+    live: 'https://storeforpc.web.app/',
+    clientCode: 'https://github.com/miforbd/storeforpc-client-side',
+    serverCode: 'https://github.com/miforbd/storeforpc-server-side'
   },
-  {
-    id: '4',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
-  },
-  {
-    id: '5',
-    image: Project5,
-    name: 'project name 5',
-    category: 'web development',
-  },
-  {
-    id: '6',
-    image: Project6,
-    name: 'project name 6',
-    category: 'web development',
-  },
+
 ];
 
 // projects
@@ -132,13 +124,10 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Frontend website',
   },
   {
-    name: 'web development',
-  },
-  {
-    name: 'branding',
+    name: 'Full stack website',
   },
 ];
 
