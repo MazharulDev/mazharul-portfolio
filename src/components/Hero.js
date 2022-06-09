@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import My image
-import WomanImg from '../assets/img/main-photo.png';
+import MyImg from '../assets/img/main-photo.png';
 
 const Hero = () => {
   return (
@@ -21,12 +21,12 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               I’m a Web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building react native,nextjs.
             </p>
-            <a href='https://drive.google.com/file/d/1bVFT5u8-lJGhsh_wTsYP_xbRwS0JuWmH/view?usp=sharing' target="_blank" rel="noreferrer" className='btn btn-md bg-accent text-lg hover:bg-secondary-hover md:btn-lg transition-all'>
+            <a href='https://drive.google.com/file/d/1bVFT5u8-lJGhsh_wTsYP_xbRwS0JuWmH/view?usp=sharing' target="_blank" rel="noreferrer" className='btn btn-md mb-4 bg-accent text-lg hover:bg-secondary-hover md:btn-lg transition-all'>
               Resume
             </a>
           </div>
           <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
-            <img src={WomanImg} alt='' />
+            <img src={MyImg} alt='' />
           </div>
         </div>
       </div>
