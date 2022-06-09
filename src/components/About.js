@@ -22,7 +22,7 @@ const About = () => {
                 Mern stack web developer
               </p>
               <hr className='mb-8 opacity-5' />
-              <p className='mb-8'>
+              <p>
                 Hello! My name is Mazharul and I enjoy making things that live on the internet. My interest in web development started back in 2019
                 when let's create a small project with HTML and CSS.
 
@@ -33,13 +33,14 @@ const About = () => {
 
                 Here are a few technologies I’ve been working with recently:
                 <br />
-                <ul className='flex'>
-                  <li className='mr-3'>JavaScript (ES6)</li>
-                  <li className='mr-3'>React js</li>
-                  <li className='mr-3'>Node js</li>
-                  <li>Typescript</li>
-                </ul>
+
               </p>
+              <ul className='flex mb-3'>
+                <li className='mr-3'>JavaScript (ES6)</li>
+                <li className='mr-3'>React js</li>
+                <li className='mr-3'>Node js</li>
+                <li>Typescript</li>
+              </ul>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
               Contact me

@@ -218,12 +218,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at mazharul714@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Dhaka, Bangladesh',
     description: 'Serving clients worldwide',
   },
 ];
