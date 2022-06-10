@@ -13,10 +13,26 @@ import {
 } from 'react-icons/fi';
 
 
-// projects images
-import Project1 from './assets/img/projects/assignment-ten.png';
-import Project2 from './assets/img/projects/vehicle.png';
-import Project3 from './assets/img/projects/storeforpc.png';
+// health and hepiness
+import health1 from './assets/img/projects/health-and-happiness/1.png';
+import health2 from './assets/img/projects/health-and-happiness/2.png';
+import health3 from './assets/img/projects/health-and-happiness/3.png';
+import health4 from './assets/img/projects/health-and-happiness/4.png';
+//vehicle store house
+import vehicle1 from './assets/img/projects/vehicle/1.png';
+import vehicle2 from './assets/img/projects/vehicle/2.png';
+import vehicle3 from './assets/img/projects/vehicle/3.png';
+import vehicle4 from './assets/img/projects/vehicle/4.png';
+import vehicle5 from './assets/img/projects/vehicle/5.png';
+// storeforpc
+import storeforpc1 from './assets/img/projects/storeforpc/1.png';
+import storeforpc2 from './assets/img/projects/storeforpc/2.png';
+import storeforpc3 from './assets/img/projects/storeforpc/3.png';
+import storeforpc4 from './assets/img/projects/storeforpc/4.png';
+import storeforpc5 from './assets/img/projects/storeforpc/5.png';
+import storeforpc6 from './assets/img/projects/storeforpc/6.png';
+import storeforpc7 from './assets/img/projects/storeforpc/7.png';
+import storeforpc8 from './assets/img/projects/storeforpc/8.png';
 
 
 // skills images
@@ -62,18 +78,29 @@ export const social = [
 export const projectsData = [
   {
     id: '1',
-    image: Project1,
+    image1: health1,
+    image2: health2,
+    image3: health3,
+    image4: health4,
     name: 'Health is happiness',
     category: 'Frontend website',
+    feature: 'This is a treatment service website. Users will be able to log in and sign up here through Firebase. Users will not be able to take treatment without a login.',
+    technology: "React.js,Firebase, React router, React hook form,React Bootstrap, React toastify ,React icon.",
     des: 'This website is doctors portal',
     live: 'https://assignment-ten-8e38b.web.app/',
     clientCode: 'https://github.com/miforbd/health-is-happiness'
   },
   {
     id: '2',
-    image: Project2,
+    image1: vehicle1,
+    image2: vehicle2,
+    image3: vehicle3,
+    image4: vehicle4,
+    image5: vehicle5,
     name: 'Vehicle-storehouse',
     category: 'Full stack website',
+    feature: "The seller's products are handled on this site.Login and Signup using Firebase, Ensure that only authorized users can add, delete, and update product quantity. You can see your own added product on the My Items page. Fully responsive.",
+    technology: "React.js, Node.js, MongoDB, Express.js, Firebase, React router, React hook form, Tailwind css, React toastify ,Heroku.",
     des: 'This website is warehouse management',
     live: 'https://vehicle-storehouse.web.app/',
     clientCode: 'https://github.com/miforbd/vehicle-storehouse-client-side',
@@ -81,9 +108,18 @@ export const projectsData = [
   },
   {
     id: '3',
-    image: Project3,
+    image1: storeforpc1,
+    image2: storeforpc2,
+    image3: storeforpc3,
+    image4: storeforpc4,
+    image5: storeforpc5,
+    image6: storeforpc6,
+    image7: storeforpc7,
+    image8: storeforpc8,
     name: 'Store for pc',
     category: 'Full stack website',
+    feature: " This is a manufacturing website site. Here users can log in to make sure to authorize users to order products, give reviews, and update their profiles. Can pay for ordered products. There is also an admin panel in the dashboard where the admin can make admin, manage orders and add products. Fully responsive. Payment gateway has been added.",
+    technology: "React.js, Node.js, MongoDB, Express.js, Stripe, Firebase, React router,React hook form,React toastify ,React icon, Tailwind css,DaisyUI, Heroku.",
     des: 'This website is Manufacturer items',
     live: 'https://storeforpc.web.app/',
     clientCode: 'https://github.com/miforbd/storeforpc-client-side',

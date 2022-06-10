@@ -3,7 +3,7 @@ import React from 'react';
 // import My image
 import MyImg from '../assets/img/main-photo.png';
 // import resume 
-import Resume from './Mazharul_resume .pdf'
+import Resume from '../assets/Mazharul_resume.pdf'
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               I’m a Web developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building react native,nextjs.
             </p>
-            <a data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000" href={Resume} download target="_blank" rel="noreferrer" className='btn btn-md mb-4 bg-accent text-lg hover:bg-secondary-hover md:btn-lg transition-all'>
+            <a data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="2000" href={Resume} download target="_blank" rel="noreferrer" className='btn  text-white mb-4 bg-accent hover:bg-secondary-hover transition-all'>
               Resume
             </a>
           </div>
