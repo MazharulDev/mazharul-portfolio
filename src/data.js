@@ -34,33 +34,7 @@ import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
-// navigation
-export const navigation = [
-  {
-    name: 'home',
-    href: 'home',
-  },
-  {
-    name: 'about',
-    href: 'about',
-  },
-  {
-    name: 'portfolio',
-    href: 'portfolio',
-  },
-  {
-    name: 'services',
-    href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
-  },
-  {
-    name: 'contact',
-    href: 'contact',
-  },
-];
+
 
 // social
 export const social = [

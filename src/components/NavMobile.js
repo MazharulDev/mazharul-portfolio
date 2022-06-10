@@ -4,17 +4,15 @@ import React, { useState } from 'react';
 import { XIcon } from '@heroicons/react/outline';
 import { MenuAlt3Icon } from '@heroicons/react/outline';
 
-// import navigation data
-import { navigation } from '../data';
+
 
 // import components
 import Socials from './Socials';
 
 // import framer
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
-// import Link
-import { Link } from 'react-scroll';
 
 const NavMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,9 +62,8 @@ const NavMobile = () => {
         variants={ulVariants}
         initial='hidden'
         animate={isOpen ? 'visible' : ''}
-        className={`${
-          isOpen ? 'right-0' : '-right-full'
-        } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
+        className={`${isOpen ? 'right-0' : '-right-full'
+          } fixed top-0 bottom-0 w-full flex flex-col justify-center items-center transition-all duration-300 overflow-hidden`}
       >
         <div
           onClick={() => setIsOpen(false)}
@@ -74,21 +71,19 @@ const NavMobile = () => {
         >
           <XIcon className='w-8 h-8' />
         </div>
-        {navigation.map((item, idx) => {
-          return (
-            <li key={idx} className='mb-8'>
-              <Link
-                to={item.href}
-                smooth={true}
-                duration={500}
-                offset={-70}
-                className='text-xl cursor-pointer capitalize'
-              >
-                {item.name}
-              </Link>
-            </li>
-          );
-        })}
+
+        <li className='mb-8 flex flex-col'>
+
+          <Link to='/'>Home</Link>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#testimonials">Testimonials</a>
+          <Link to="/blog">Blog</Link>
+          <a href="#contact">Contact</a>
+
+
+        </li>
+
         <Socials />
       </motion.ul>
     </nav>
