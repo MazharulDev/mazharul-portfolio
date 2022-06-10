@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 
 // import contact data
 import { contact } from '../data';
+import { toast } from 'react-toastify';
 
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
 
     emailjs.sendForm('service_yy7xgz7', 'template_dvji39l', form.current, 'yR9UzGajwLDd5rEFO')
       .then((result) => {
-        alert(result.message);
+        toast("Send your Email successfully");
       }, (error) => {
         console.log(error.message);
       });
@@ -60,11 +61,11 @@ const Contact = () => {
               <input name='clientEmail' className='input' type='email' placeholder='Your email' required />
             </div>
             <input name='subject' className='input' type='text' placeholder='Subject' required />
-            <textarea required
+            <textarea name='message' required
               className='textarea'
               placeholder='Your message'
             ></textarea>
-            <input name='message' type='submit' value='Send message' className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <input type='submit' value='Send message' className='btn btn-lg bg-accent hover:bg-secondary-hover cursor-pointer'>
 
             </input>
           </form>
