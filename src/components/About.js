@@ -10,7 +10,7 @@ const About = () => {
         <div className='flex flex-col xl:flex-row items-center gap-24'>
           <img data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
             className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
             src={Image}
             alt=''
