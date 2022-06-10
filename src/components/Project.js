@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Project = ({ item }) => {
+
+const Project = ({ item, setProjectData }) => {
   return (
     <div key={item.id} className='flex flex-col items-center text-center'>
       <div className='mb-8'>
@@ -14,6 +15,10 @@ const Project = ({ item }) => {
       <a className='hover:underline mt-4 text-blue-500' href="{item.live}" target="_blank">Live Link</a>
       <a className='hover:underline text-blue-500' href="{item.clientCode}" target="_blank">Client Code Link</a>
       <a className='hover:underline text-blue-500' href="{item.serverCode}" target="_blank">Server Code Link</a>
+
+      <label onClick={() => setProjectData(item)} htmlFor="ProjectModal" className="btn modal-button mt-4">Details Project</label>
+
+
     </div>
   );
 };

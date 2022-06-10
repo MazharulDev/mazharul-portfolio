@@ -3,8 +3,6 @@ import './App.css';
 import Blog from './components/Blog';
 import Home from './home/Home';
 
-
-
 function App() {
   return (
     <div>
