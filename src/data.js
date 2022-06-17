@@ -1,15 +1,15 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
+  FiTwitter
 } from 'react-icons/fi';
 
 
@@ -55,21 +55,22 @@ import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: 'https://www.instagram.com/miforbd/?hl=en',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/mazharuldev/',
   },
   {
     icon: <FiGithub />,
-    href: 'https://github.com/miforbd',
+    href: 'https://github.com/MazharulDev',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiTwitter />,
+    href: 'https://twitter.com/MazharulDev',
   },
+  {
+    icon: <FiInstagram />,
+    href: 'https://www.instagram.com/mazharuldev/',
+  },
+
 ];
 
 
