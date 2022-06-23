@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../components/About';
+import BackTopBtn from '../components/BackTopBtn';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -19,6 +20,7 @@ const Home = () => {
             <Skills />
             <Portfolio />
             <Testimonials />
+            <BackTopBtn />
             <Contact />
             <Footer />
 
